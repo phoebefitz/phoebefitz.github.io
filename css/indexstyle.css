@@ -1,0 +1,146 @@
+/* Index Style Sheet */
+
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Josefin+Slab|Source+Code+Pro|Special+Elite);
+
+
+body {
+  font-family: 'Josefin Slab', serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 28px;
+}
+
+
+h2 {
+  font-size: 32px;
+}
+
+.name {
+  display: none;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 510px;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 80px;
+
+}
+
+nav ul li:last-child {
+  margin: 0;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.photos li {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.aboutme {
+  float: right;
+}
+
+.aboutmepic img {
+  float: left;
+}
+
+a:hover {
+  color: #0c00ab;
+}
+
+a:active {
+  color: blue;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+footer {
+  margin-left: 60px;
+  font-style: italic;
+  text-align: center;
+}
+
+
+#container {
+  margin: 0 auto;
+  width: 861px;
+  position: relative;
+  overflow: auto;
+}
+
+#contact {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#content h2 {
+  margin-top: 0;
+}
+.teaser {
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.teaser:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.teaser p {
+  margin: 0;
+  width: 420px;
+  height: 280px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.teaser p span {
+  display: block;
+  position: relative;
+  top: 42%;
+  text-align:center;
+  font-family: 'Josefin Slab', serif;
+  color: #fff;
+
+}
+
+.teaser:hover p {
+  background: rgba(0,0,0,0.5);
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.75s, opacity 0.75s;
+}
