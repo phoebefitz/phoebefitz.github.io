@@ -1,85 +1,112 @@
 /* Mobile Style Sheet */
 
-@media (max-width:320px) {
+ @media (max-width:320px) {
 
-  #container {
-    margin: 0 ;
+   body {
+     margin: 0;
+     padding: 0;
+   }
+
+   #container {
+     margin: 0;
+     width: 320px;
+     position: static;
+     overflow: auto;
+     }
+
+  .teaser img {
     width: 320px;
-    position: static;
-    overflow: auto;
-    }
+    vertical-align: center;
+    margin-bottom: 5px;
+  }
 
 
   #contact {
     position: static;
     right: 0;
     top: 0;
-    font-size: 1px;
-    }
-
-    .photos li {
-      margin-bottom: 0;
-      margin-top: 0;
-      width: 24px;
-      height: auto;
-      vertical-align: middle;
-    }
-
-    .aboutme {
-      float: none;
-      width: 24px;
-      height: auto;
-      vertical-align: middle;
-    }
-
-    .aboutmepic img {
-      float: none;
-      width: 24px;
-      height: auto;
-      vertical-align: middle;
-    }
-
-  .teaser {
-    position: static;
-    margin-right: 0;
-    margin-bottom: 0;
     float: none;
-    width: 24px;
-    height: auto;
-    vertical-align: middle;
   }
 
-  .teaser:nth-of-type(2n) {
-    margin-right: 0;
+  .photos li img {
+    max-width: 320px;
+    vertical-align: center;
+    margin-bottom: 5px;
+    position: static;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .aboutme {
+    float: none;
+  }
+
+  img.aboutmepic {
+    float: none;
+    max-width: 260px;
+  }
+
+  nav {
+    width: 320px;
+    }
+
+
+  nav ul {
+    list-style-type: none;
+    vertical-align: center;
+  }
+
+  nav ul li {
+    padding-left: 25px;
+    display: block;
+    margin: 0;
+
+  }
+
+  nav ul li:last-child {
+    margin: 0;
   }
 
   .teaser p {
     margin: 0;
-    width: 320px;
-    height: 180px;
-    position: static;
-    top: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    margin-left: 1px;
+    opacity: 1;
+    visibility: visible;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
 
   }
+
+
 
   .teaser p span {
     display: block;
-    position: static;
-    top: 42%;
+    position: absolute;
     text-align:center;
     font-family: 'Josefin Slab', serif;
     color: #fff;
+    font-size: 30px;
 
   }
 
+
   .teaser:hover p {
     background: rgba(0,0,0,0.5);
-    visibility: visible;
+    visibility: none;
     opacity: 1;
     transition: visibility 0.75s, opacity 0.75s;
   }
 
-
+  .aboutme {
+    margin-left: 5px;
+  }
 
 
 }
