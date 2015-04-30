@@ -63,13 +63,6 @@ ul {
   margin-top: 100px;
 }
 
-.aboutme {
-  float: right;
-}
-
-.aboutmepic img {
-  float: left;
-}
 
 a:hover {
   color: #0c00ab;

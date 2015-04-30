@@ -16,7 +16,7 @@
 
   .teaser img {
     width: 320px;
-    vertical-align: center;
+    vertical-align: middle;
     margin-bottom: 5px;
   }
 
@@ -30,7 +30,7 @@
 
   .photos li img {
     max-width: 320px;
-    vertical-align: center;
+    vertical-align: middle;
     margin-bottom: 5px;
     position: static;
   }
@@ -56,7 +56,7 @@
 
   nav ul {
     list-style-type: none;
-    vertical-align: center;
+    vertical-align: middle;
   }
 
   nav ul li {
@@ -99,7 +99,7 @@
 
   .teaser:hover p {
     background: rgba(0,0,0,0.5);
-    visibility: none;
+    visibility: hidden;
     opacity: 1;
     transition: visibility 0.75s, opacity 0.75s;
   }
